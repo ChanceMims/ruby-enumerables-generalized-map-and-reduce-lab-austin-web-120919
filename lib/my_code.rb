@@ -16,5 +16,8 @@ def reduce(source_array, starting_value = 0)
     array_total = yield(source_array[counter_index], array_total)
     counter_index += 1
   end
+  if array_total == nil
+    return false
+  end
   return array_total
 end
