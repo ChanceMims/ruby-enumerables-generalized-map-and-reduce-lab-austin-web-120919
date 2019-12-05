@@ -16,4 +16,5 @@ def reduce(source_array, starting_value = 0)
     array_total += yield(source_array[counter_index])
     counter_index += 1
   end
+  return array_total
 end
