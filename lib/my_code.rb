@@ -1,5 +1,5 @@
 # Your Code Here
-def generalized_map(source_array)
+def map(source_array)
   result_array = []
   counter_index = 0
   while counter_index < source_array.length do
@@ -9,7 +9,7 @@ def generalized_map(source_array)
   return result_array
 end
 
-def generalized_redux(source_array, starting_value = 0)
+def reduce(source_array, starting_value = 0)
   array_total = starting_value
   counter_index = 0
   while counter_index < source_array.length do
